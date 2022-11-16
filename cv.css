@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+}
+body{
+     
+    background: linear-gradient(180deg, rgba(125, 124, 184, 0.78) 0%, rgba(184, 123, 123, 0) 111.19%);    
+    background-size: 100%;
+    background-position: fixed;
+}
+#introduction{
+    display: block;
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.content{
+     float: left; 
+    display: block;      
+     background: rgba(58, 51, 51, 0.42);
+     width: 500px;
+     height: fit-content;     
+     color: white;
+}
+.content h2, h1 {
+    color: white;
+}
+.container{    
+    float: right;
+    background: rgba(10, 9, 9, 0.82);
+    width: fit-content;
+    border-radius: 23px;
+}
+.exp-btn{
+    margin-top: 24px ;
+width: 416px;
+height: 83px;
+background: #000000;
+border-radius: 37px;
+color: aliceblue;
+}
+#skills{
+    margin-top: -3px;
+    padding: 25px;    
+}
+.skill-bar{
+    margin-left: 5px;
+    width: 250px;
+    height: 5px;
+    background-color: white;
+}
+.skill{
+    margin-top: 10px;
+}
+.main{
+    width: 60%;
+    float: right;
+    height: fit-content;
+    background: rgba(217, 217, 217, 0.62) fixed center;
+    border-radius: 71px;
+}
+#me{
+    color: #187387;
+    font-size: large;
+}
+table{
+    background: rgba(55, 71, 74, 0.67);
+}
+#pic{
+    
+width: 354px;
+height: 315px;
+left: 659px;
+top: 117px;
+border-radius: 50%;
+
+}
+#name{
+    float: right ;
+  margin-top: 100px;
+  margin-right: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgba(10, 9, 9, 0.82);
+  font-size: 40;
+  
+}
+
+#skill-lang{
+    margin-top: auto;
+    width: 500px;
+    display: inline-block;   
+    background: rgba(58, 51, 51, 0.42);
+   
+}
+#intro{
+    font-size: large;
+}
+table{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    font-size: 30;
+    border: 2px solid black;
+   background: rgba(58, 51, 51, 0.42);
+  
+    
+
+}
+.desc{
+    width: 40%;
+    margin: auto;
+}
+#skill1{
+    height: 5px;
+    width: 120px;
+    background-color: blue;
+         
+}
+#skill2{
+    height: 5px;
+    width: 140px;
+    background-color: blue;
+         
+}
+#skill3{
+    height: 5px;
+    width: 160px;
+    background-color: blue;
+         
+}
+#skill4{
+    height: 5px;
+    width: 180px;
+    background-color: blue;
+         
+}
+#skill5{
+    height: 5px;
+    width: 200px;
+    background-color: blue;
+         
+}
+#lang1{
+    height: 5px;
+    width: 220px;
+    background-color: blue;
+         
+}
+#lang2{
+    height: 5px;
+    width: 240px;
+    background-color: blue;
+         
+}
+#lang3{
+    height: 5px;
+    width: 80px;
+    background-color: blue;
+         
+}
+#lang4{
+    height: 5px;
+    width: 140px;
+    background-color: blue;
+         
+}
+#lang5{
+    height: 5px;
+    width: 190px;
+    background-color: blue;
+         
+}
+
+@media (max-width:1250px){
+
+    button{
+   width: 208x;
+   height: 42px;
+   left:unset;
+   top: 349px;
+   margin: auto;
+    }
+   .main{
+    float: none;
+    width: 80%;    
+    height: fit-content;
+    background: rgba(217, 217, 217, 0.62) fixed center;
+    border-radius: 25px;
+    margin: auto;
+
+   }
+   
+   #content{    
+    width: fit-content;
+    float: right;
+    margin: auto;
+    position: unset;              
+    font-size: 26;
+    height: fit-content;    
+    width: 100%;
+    border-radius: 25px;
+    
+   }
+  #skill-lang{
+    display: block;
+    float:none;
+    bottom: 0;
+    margin-top: unset;
+    margin: auto;
+    width: fit-content;    
+    background-color: rgba(10, 9, 9, 0.82);
+    color: white;
+  }
+   #pic{
+    
+    z-index: 100;
+    width: 254px;
+    height: 215px;
+   }
+body{
+    background-color: #000000;
+}
+#content button{
+    width: fit-content;
+    height: fit-content;
+    font-size: 12;
+}
+#content h1,h3,h2{
+    font-size: small;
+}
+.container{
+    display: none;
+}
+#skl{
+    display: none;
+}
+table{
+    font-size: 12;
+}
+#introduction{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+#programing h1 {
+    font-size: small;
+}
+.content{
+    float: right;
+    width: fit-content;
+}
+#buttons{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+}
+#programing{    
+    margin: auto;
+    margin-top: 20px;
+    background: rgba(10, 9, 9, 0.82);
+    width: fit-content;
+    border-radius: 23px;
+    color: white;
+}
