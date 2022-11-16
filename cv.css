@@ -172,6 +172,9 @@ table{
     background-color: blue;
          
 }
+#work1{
+    display: none;
+}
 
 @media (max-width:1250px){
 
@@ -256,7 +259,14 @@ table{
     height: fit-content;
     margin: auto;
 }
-
+#work2{
+    display: none;
+}
+#work1{
+    display: unset;   
+    display: none;
+    display: unset;
+}
 }
 #programing{    
     margin: auto;
